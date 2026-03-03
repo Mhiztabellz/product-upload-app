@@ -1,7 +1,7 @@
 {
   "name": "product-upload-app",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,14 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~55.0.3",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "@reduxjs/toolkit": "^2.2.3",
+    "expo": "^55.0.4",
+    "expo-image-picker": "~55.0.10",
+    "expo-notifications": "~55.0.10",
     "expo-status-bar": "~55.0.4",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-native": "0.83.2",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-toast-message": "^2.3.3",
+    "react-native-vector-icons": "^10.3.0",
+    "react-redux": "^9.1.0"
   },
   "devDependencies": {
-    "@types/react": "~19.2.2",
-    "typescript": "~5.9.2"
-  },
-  "private": true
+    "@babel/core": "^7.20.0",
+    "@types/expo__vector-icons": "^9.0.1",
+    "@types/react": "~19.2.10",
+    "@types/react-native-vector-icons": "^6.4.15",
+    "typescript": "^5.3.0"
+  }
 }
